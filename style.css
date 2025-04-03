@@ -46,3 +46,11 @@ button:hover{
 hr{
     margin: 20px 0;
 }
+
+ol{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 18px; /* Adjust font size if needed */
+    margin: 5px 0; /* Add some spacing */
+}
