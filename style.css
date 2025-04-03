@@ -2,14 +2,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: 20px;
-    background-color: white;
+    background-color: #2C2F33;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    max-width: 55%;
+    width: 80%;
+    max-width: 400px;
     margin: 0 auto;
     background: #0d1b2a;
     color: #E0E1DD;
@@ -18,39 +18,43 @@ body {
     box-shadow: 0 0 10px #1b263b;
 }
 
-input{
+input {
     display: block;
-    width: 94.5%;
+    width: 95%;
     margin: 10px 0;
     padding: 10px;
+    border: 1px solid #778da9;
+    border-radius: 4px;
+    background: #E0E1DD;
+    color: #000;
 }
 
-button{
+button {
     display: block;
-    width: 50%;
-    padding: 8px;
-    margin: 10px auto;
-}
-
-button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
     background: #778da9;
     color: white;
-    border: #1b263b;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
 }
 
-button:hover{
+button:hover {
     background: #415a77;
 }
 
-hr{
+hr {
     margin: 20px 0;
+    border: 0.5px solid #E0E1DD;
 }
 
-ol{
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    font-size: 18px; /* Adjust font size if needed */
-    margin: 5px 0; /* Add some spacing */
+ul{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px 0;
+    list-style: none;
 }
