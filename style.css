@@ -6,8 +6,11 @@ body {
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     max-width: 400px;
-    margin: auto;
+    margin: 0 auto;
     background: #0d1b2a;
     color: #E0E1DD;
     padding: 20px;
